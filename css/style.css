@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: url(../img/bk.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 28px 60px;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li .nav {
+  margin-left: 60px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+header ul li .nav:hover {
+  text-shadow: 2px 2px 10px #b8b8b9;
+}
+.logo {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+.item-soc li {
+  margin-left: 28px;
+}
+
+.sec {
+  top: 0;
+  left: 0;
+  padding-top: 89px;
+  padding-left: 60px;
+  position: relative;
+}
+.title {
+  margin-bottom: 14px;
+  max-width: 577px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 102.4%;
+  /* or 82px */
+
+  color: #ffffff;
+}
+
+.sub-title {
+  margin-bottom: 40px;
+  max-width: 405px;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.sub-title-one {
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.11);
+  padding: 14px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.btn:hover {
+  text-shadow: 2px 2px 10px #b8b8b9;
+  box-shadow: 1px 1px 10px #b8b8b9;
+}
+
+.slider {
+  padding-left: 60px;
+  padding-top: 91px;
+}
+.slider input {
+  margin-left: 16px;
+}
+
+.dots label {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
